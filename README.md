@@ -1,8 +1,8 @@
-# data_public
+# R_Code_Public
 
 Hi,
 
-This is a repository to track my data science projects. I'm still learning.
+This is a repo for my R projects to demonstrate my knowledge and applicable skills. 
 
 Thanks,
 
