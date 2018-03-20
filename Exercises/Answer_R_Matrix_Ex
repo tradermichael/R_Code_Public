@@ -1,0 +1,15 @@
+A <- c(1,2,3)
+B <- c(4,5,6)
+mat <- matrix(1:9, nrow=3)
+is.matrix(mat)
+#Building mat2
+mat2 <- matrix(1:25, nrow = 5, byrow = TRUE)
+mat2
+#Indexing from Mat2
+mat2[2:3,2:3]
+mat2[4:5,4:5]
+#This is the sum in Mat2
+sum(mat2)
+#can also do rowSums and colSums
+#lets create a matrix with random values
+matrix(runif(20,min=0, max = 100),byrow = T, nrow = 4)
