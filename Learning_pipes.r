@@ -16,6 +16,16 @@ gapminder %>% filter(year == 2012 & continent == "Africa" ) %>%
   ggplot(aes(y=life_expectancy , x=fertility  )) +
   geom_point()
 
+###adding colors to the point plot: 
+
+library(dplyr)
+library(ggplot2)
+library(dslabs)
+data(gapminder)
+gapminder %>% filter(year == 2012 & continent == "Africa" ) %>%
+  ggplot(aes(y=life_expectancy , x=fertility, color = region) ) +
+  geom_point()
+
 ###
 summary(gapminder)
                 country           year      infant_mortality life_expectancy
